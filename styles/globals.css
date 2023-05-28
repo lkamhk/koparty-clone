@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+
+  p,
+  a,
+  span,
+  li,
+  label {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .notoSansTC {
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+
+  .openSans {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+
+  .btn:hover {
+    opacity: 0.8;
+    background-color: #f05f5c !important;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  @keyframes example {
+    from {
+      height: 0%;
+      opacity: 0;
+    }
+
+    to {
+      height: 100%;
+      opacity: 1;
+    }
+  }
+
+  .jumbotron {
+    background: url(../public/image/thebg_good4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 70vh;
+    margin-bottom: 0px;
+    position: relative;
+  }
+
+  @media screen (max-width: 1023px) {
+    .email-input{
+      width:auto;
+    }
+  }
+}
