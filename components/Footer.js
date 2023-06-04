@@ -33,7 +33,7 @@ const Footer = () => {
 
 
         </div>
-        <div className='w-[380px] h-[153px]'>
+        <div className='w-[380px] h-[153px] xs:w-[300px]'>
           <h4 className='w-100 '>聯絡我們</h4>
           <p className='mt-[35px] opacity-70'>
             銅鑼灣謝斐道535號Tower 535 20樓
@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='w-[380px] h-[153px]'>
+          <div className='w-[380px] h-[153px] xs:w-[350px]'>
             <h4 className='w-100 '>聯絡我們</h4>
             <p className='mt-[15px] opacity-70'>
               銅鑼灣謝斐道535號Tower 535 20樓

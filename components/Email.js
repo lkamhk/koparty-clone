@@ -6,7 +6,7 @@ const email = () => {
 
 
       <div className='h-[178px] flex flex-col items-center justify-center '>
-        <h3 className='font-semibold text-[28px]'>加入K.O. Party的Email List</h3>
+        <h3 className='font-semibold text-[28px] xs:text-[20px]'>加入K.O. Party的Email List</h3>
 
         <div className='h-[178px] flex flex-col flex-wrap mb-[80px] text-center '>
           <div className='mb-[16px] text-start mt-[40px] text-[#707070]'>
@@ -15,7 +15,7 @@ const email = () => {
 
           <input type="email" name="email" id="email-input" placeholder="你的電郵"
            
-            className='block w-[800px] md:w-[500px] xs:w-[350px] h-[48px] mb-[10px] p-[0.5rem]
+            className='block w-[800px] md:w-[500px] xs:w-[320px] h-[48px] mb-[10px] p-[0.5rem]
                shadow-[#ced4da] border-[1px] border-[#ced4da] rounded-[4.8px]
                focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400
                focus:border-[3px]

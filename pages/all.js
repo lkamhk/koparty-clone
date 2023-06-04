@@ -37,7 +37,7 @@ const all = () => {
                     <h4 className=' absolute bottom-[35%] left-5
                    w-[100%]  
                    text-[19px] font-[550]
-                   lg:text-[16px]  md:text-[12px]
+                   lg:text-[16px]  md:text-[12px] 
                     '>
                       男：HKD380  女：HKD280
                     </h4>
@@ -201,7 +201,7 @@ const all = () => {
                   </span>
 
                   <div className=' w-100 flex flex-row text-center items-center'>
-                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550]'>
+                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550] xs:right-[10px]'>
                       男：HKD380  女：HKD280
                     </h4>
                   </div>
@@ -236,7 +236,7 @@ const all = () => {
                   </span>
 
                   <div className=' w-100 flex flex-row text-center items-center'>
-                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550]'>
+                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550] xs:right-[10px]'>
                       男：HKD380  女：HKD280
                     </h4>
                   </div>
@@ -271,7 +271,7 @@ const all = () => {
                   </span>
 
                   <div className=' w-100 flex flex-row text-center items-center'>
-                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550]'>
+                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550] xs:right-[10px]'>
                       男：HKD380  女：HKD280
                     </h4>
                   </div>

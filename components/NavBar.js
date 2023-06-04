@@ -87,7 +87,7 @@ const NavBar = () => {
         </div>
       </div>
       {/* moblie menu */}
-      <div className=' h-full w-[510px] xs:w-[410px] ml-[60px] mb-[10px] px-[15px] mlg:hidden'>
+      <div className=' h-full w-[510px] xs:w-[205px] ml-[60px] mb-[10px] px-[15px] mlg:hidden'>
         <button onClick={handleClick} className='absolute right-[15%] top-[3%]  p-[8px]'>
           <div className='flex-col self-end justify-center items-center ' >
             <span className='block bg-black border-1px border-black w-6 h-0.5 rounded-sm -translate-y-1'></span>

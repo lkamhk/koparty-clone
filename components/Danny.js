@@ -3,22 +3,22 @@ import Image from 'next/image'
 import DannyImg from '../public/image/dt4.jpg'
 const Danny = () => {
   return (
-    <div className='w-full h-[586px] flex items-center justify-center overflow-hidden'>
-      <div className='w-[1140px] h-[426px] flex items-center justify-center'>
-        <div className='w-[760px] h-[426px] grid text-center'>
+    <div className='w-full h-[586px] flex items-center justify-center overflow-hidden xs:h-full pb-[40px]'>
+      <div className='w-[1140px] h-[426px] flex items-center justify-center xs:h-full'>
+        <div className='w-[760px] h-[426px] grid text-center xs:h-full'>
           <div className='w-full h-full  grid-cols-12'>
-          <h3 className='text-[2rem] mb-[70px]'>加入K.O. Party，一起去狂歡</h3>  
+            <h3 className='text-[2rem] mt-[50px] mb-[70px] xs:text-[1.5rem]'>加入K.O. Party，一起去狂歡</h3>  
           </div>
 
-          <div className='flex flex-row grid-cols-12'>
-          <div className='inline w-[253px] h-[318px] grid-cols-4 '>
+          <div className='grid-cols-12'>
+            <div className='inline w-[253px] h-[318px] col-span-4 xs:col-span-12'>
             <Image src={DannyImg} width={108} height={108} alt="cover" className='inline rounded-full ' />
-           <h5 className='mt-[22px]'>
-           搞手Danny
+             <h5 className='mt-[22px]'>
+             搞手Danny
            </h5>
-            
-          </div>
-          <div className='inline w-[476px] h-[318px] grid-cols-6 text-[#707070]'>
+           </div>
+         
+            <div className='inline-block w-[476px] h-[318px] mt-[10px] col-span-8 text-[#707070] xs:w-[320px]'>
             <p className='text-justify mb-[1rem] text-[#000000]'>
             無論你是單身一人，或是一班朋友想去狂歡，只要你是Cool Guys/ Girls, 都歡迎加入我們這個大家庭！
             </p>
@@ -27,9 +27,10 @@ const Danny = () => {
             </p>
             <p className='text-justify'>
           
-          人生的美妙在於遇見不同的人，遇到不同的事。如果你也想擴闊生活圈子，為生命留下深刻烙印，不妨考慮參加我們的派對，與我們一起去狂歡！
+            人生的美妙在於遇見不同的人，遇到不同的事。如果你也想擴闊生活圈子，為生命留下深刻烙印，不妨考慮參加我們的派對，與我們一起去狂歡！
             </p>
-          </div>
+            
+            </div>
           </div>
          
         </div>

@@ -193,7 +193,7 @@ const Event = () => {
                   </span>
 
                   <div className=' w-100 flex flex-row text-center items-center'>
-                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550]'>
+                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550] xs:right-[10px]'>
                       男：HKD380  女：HKD280
                     </h4>
                   </div>
@@ -228,7 +228,7 @@ const Event = () => {
                   </span>
 
                   <div className=' w-100 flex flex-row text-center items-center'>
-                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550]'>
+                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550] xs:right-[10px]'>
                       男：HKD380  女：HKD280
                     </h4>
                   </div>
@@ -263,7 +263,7 @@ const Event = () => {
                   </span>
 
                   <div className=' w-100 flex flex-row text-center items-center'>
-                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550]'>
+                    <h4 className=' absolute bottom-[38%] right-[80px]  w-[100%] h-[22px] text-[19px] font-[550] xs:right-[10px]'>
                       男：HKD380  女：HKD280
                     </h4>
                   </div>

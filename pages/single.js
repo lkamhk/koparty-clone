@@ -27,9 +27,15 @@ const single = () => {
       {/* main */}
       <div className='w-full h-full pt-[80px]'>
 
+        <div className='w-full'>
+        <div className='absolute h-[70vh]  w-[100%] z-10 bg-[linear-gradient(to_right,rgba(255,255,255,0.99)_20%,rgba(255,255,255,0.7)_70%,rgba(255,255,255,0)_95%)]' ></div>
+
+<Image src={bgJpg} className='h-[70vh]  w-full bg-center object-cover' alt='promo image' fixed='true' />
+        </div>
+     
         <div className='w-[100%] h-full flex items-center justify-center md:flex-col'>
-          <div className='w-[720px] h-full lg:w-[510px]'>
-            <div><h1 className='inline notoSansTC text-[40px]'>狂歡派對（旅行篇） - 11月</h1>
+          <div className='w-[720px] h-full lg:w-[510px] xs:w-[300px]'>
+            <div><h1 className='inline notoSansTC text-[40px] xs:text-[30px]'>狂歡派對（旅行篇） - 11月</h1>
               <span className='inline md:inline-block m-[15px] px-[15px]  py-[10px] border-[2px]
                border-red-400 text-red-400 rounded-full cursor-default'>可報名
                </span>
@@ -65,13 +71,15 @@ const single = () => {
 
           <div className=' w-[380px] lg:w-[210px] md:w-[300px] h-[520px] 
            flex flex-col items-center justify-center ml-[15px]
-           md:hidden         
+           md:hidden       
            '>
             <div className='w-[350px] lg:w-[210px] h-[214px] 
             flex flex-col items-center justify-center bg-[#f9f9f9]
-            md:h-full md:w-100
+            md:h-full md:w-100 
             '>
-              <div className='font-bold text-[#212529] leading-24 text-[24px] ml-[30px] self-start flex items-center justify-center'> <BiTask className='inline '/><h2 className='inline text-[18px]'>立即報名</h2></div>
+              <div className='font-bold text-[#212529] leading-24 text-[24px] ml-[30px] 
+              self-start flex items-center justify-center'> 
+              <BiTask className='inline '/><h2 className='inline text-[18px]'>立即報名</h2></div>
               <hr className='bg-black w-[80%] mt-[10px] mb-[50px] md:mb-0'/>
               <button className='px-[40px] py-[10px] border-[1px] bg-red-400 text-white rounded-full'>立即報名</button>
             </div>
@@ -85,9 +93,9 @@ const single = () => {
 
           <div className='w-[540px]  h-[520px] 
            flex flex-col items-center justify-center ml-[15px]
-           mmd:hidden         
+           mmd:hidden  xs:w-[300px]       
            '>
-            <div className='w-[510px]  h-[214px] 
+            <div className='w-[510px]  h-[214px]   xs:w-[370px] 
             flex flex-col items-center justify-center bg-[#f9f9f9]
            
             '>

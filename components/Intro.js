@@ -29,7 +29,7 @@ const Intro = () => {
       <div className='w-full h-full relative  '>
         {/* banner context */}
         <div className='absolute left-[21%] z-20  top-[35%] lg:top-[10%] xs:top-[3%]'>
-          <h1 className='text-[56px] z-10 mt-[8px] '>全港最好玩既Private派對 (示範頁面)</h1>
+          <h1 className='text-[56px] z-10 mt-[8px] xs:text-[40px]'>全港最好玩既Private派對 (示範頁面)</h1>
           <div className='mb-[36px] text-[1.25rem] font-light ' style={{ fontFamily: 'open sans', }}>
             生活悶悶地？加入我們一齊玩啦！
           </div>
