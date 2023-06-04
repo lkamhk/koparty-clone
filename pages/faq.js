@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 
 
-const faq = () => {
+const Faq = () => {
 
   const [clickED, setClickED] = useState(true)
   const [clickED2, setClickED2] = useState(false)
@@ -85,4 +85,4 @@ const faq = () => {
   )
 }
 
-export default faq
+export default Faq

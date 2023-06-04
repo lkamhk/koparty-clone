@@ -4,7 +4,7 @@ import Image from 'next/image'
 import DannyImg from '../public/image/dt4.jpg'
 import bgJpg from '../public/image/thebg_good4.jpg'
 import { BiTask } from 'react-icons/bi'
-const single = () => {
+const Single = () => {
   return (
     <>
 
@@ -165,4 +165,4 @@ const single = () => {
   );
 };
 
-export default single;
+export default Single;

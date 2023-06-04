@@ -7,7 +7,7 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 
-const all = () => {
+const All = () => {
   return (
     <div>
 
@@ -301,4 +301,4 @@ const all = () => {
   );
 };
 
-export default all;
+export default All;

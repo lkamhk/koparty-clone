@@ -6,7 +6,7 @@ import {AiTwotonePhone , AiOutlineMail} from 'react-icons/ai'
 
 
 
-const contact = () => {
+const Contact = () => {
 
   // useEffect(() =>{
 
@@ -87,4 +87,4 @@ const contact = () => {
     </div>
   )
 }
-export default contact
+export default Contact
