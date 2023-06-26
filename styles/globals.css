@@ -21,6 +21,11 @@
     font-family: 'Open Sans', sans-serif;
   }
 
+  .fontStroke{
+    -webkit-text-stroke: 1px black;
+  }
+
+  
   .notoSansTC {
     font-family: 'Noto Sans TC', sans-serif;
   }
